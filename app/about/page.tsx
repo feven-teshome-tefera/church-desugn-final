@@ -11,9 +11,10 @@ export default function AboutPage() {
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl md:text-5xl font-bold text-balance">About Emmanuel Baptist Church</h1>
+            <p className="text-xl mt-6 opacity-95">Discovering your place in God's work</p>
+        
           </div>
         </section>
-
         {/* Church Introduction */}
         <section className="py-16 md:py-24 bg-background">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

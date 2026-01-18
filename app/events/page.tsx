@@ -136,11 +136,12 @@ export default function EventsPage() {
               <div>
                 <h3 className="font-semibold mb-4">Address</h3>
                 <p className="text-foreground/70">
-                  123 Faith Street
+                  Addis Ababa, Ethiopia
                   <br />
-                  Community City, ST 12345
+                  2Q9F+52V, Addis Ababa
                   <br />
-                  (555) 123-4567
+                  (251)1 141 9066
+
                 </p>
               </div>
             </div>

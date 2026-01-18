@@ -69,23 +69,14 @@ export default function AboutPage() {
         <section className="py-16 md:py-24 bg-background" >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-12 text-center">Our Leadership</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
+            <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8">
               {[
                 {
-                  name: "Pastor David Johnson",
+                  name: "Pastor Derege",
                   role: "Lead Pastor",
-                  bio: "With over 20 years of ministry experience, Pastor David leads our congregation with vision, compassion, and biblical conviction.",
-                },
-                {
-                  name: "Pastor Mary Williams",
-                  role: "Associate Pastor",
-                  bio: "Pastor Mary brings energy and insight to our worship and discipleship programs, serving with passion and dedication.",
-                },
-                {
-                  name: "Pastor James Brown",
-                  role: "Youth & Community Outreach Pastor",
-                  bio: "Pastor James leads our youth ministry and community service initiatives, empowering the next generation of believers.",
-                },
+                  bio: "With over 10 years of ministry experience, Pastor Derege leads our congregation with vision, compassion, and biblical conviction.",
+                }
               ].map((pastor) => (
                 <div key={pastor.name} className="border border-border rounded-lg p-8 text-center">
                   <div className="w-24 h-24 bg-secondary rounded-full mx-auto mb-6"></div>

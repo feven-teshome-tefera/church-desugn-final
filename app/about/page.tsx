@@ -73,9 +73,9 @@ export default function AboutPage() {
             <div className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-8">
               {[
                 {
-                  name: "Pastor Derege",
+                  name: "Pastor Dereje",
                   role: "Lead Pastor",
-                  bio: "With over 10 years of ministry experience, Pastor Derege leads our congregation with vision, compassion, and biblical conviction.",
+                  bio: "With over 10 years of ministry experience, Pastor Dereje leads our congregation with vision, compassion, and biblical conviction.",
                 }
               ].map((pastor) => (
                 <div key={pastor.name} className="border border-border rounded-lg p-8 text-center">

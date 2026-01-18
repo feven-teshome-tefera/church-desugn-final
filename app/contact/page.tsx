@@ -230,7 +230,7 @@ export default function ContactPage() {
                 <p>123 Faith Street, Community City, ST 12345</p>
                 <p className="text-sm mt-2">
                   <a
-                    href="https://maps.google.com"
+                    href="https://maps.app.goo.gl/5TCsPB1ya9QzexeSA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
